@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <script type="application/javascript" src="Chatbot/Robo.js"></script>
+    <script type="application/javascript">
+        var divClienteNome;
+
+        window.onload = function () {
+            divClienteNome = document.getElementById("cliente_nome");
+            divClienteNome.innerText = "Nome cliente: Jean Rodrigues";
+
+            //document.getElementById('textarea_pergunta').value = "Qual meu nome?";
+        };
+    </script>
+</head>
+
+<body>
+    <p>
+    <div id="cliente_nome">Nome do cliente:</div>
+    </p>
+    <p>
+        <div id="pergunta">
+            <textarea id="textarea_pergunta" name="textarea_pergunta" rows="5" cols="25"></textarea>
+        </div>
+    </p>
+    <p>
+        <button onclick="Cliente.RealizarPergunta()">Enviar</button>
+    </p>
+    <p>Reposta: <span id="resposta_enviada">em aguardo...</span>
+    </p>
+    <p>
+        <div id="resposta">
+            <textarea id="textarea_resposta" name="textarea_resposta" rows="5" cols="25"></textarea>
+        </div>
+    </p>
+    <p>
+        <button onclick="Robo.ResponderPergunta()">Responder</button>
+    </p>
+</body>
+
+</html>
