@@ -7,6 +7,6 @@
 - Qual dia é hoje?
 - dia de hoje? 
 ---
-- Qual o clima
+- Qual o clima?
 
 ![ChatBot](https://github.com/bmachadoti/JavaScript-ChatBot/blob/main/Documentacao/JavaScript-ChatBot.jpg)
